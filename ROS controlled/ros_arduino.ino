@@ -18,7 +18,6 @@ void servopub(const std_msgs::Float32MultiArray& msg) {
         servo0.write(pos);            
     }
 
-    // Repeat the same process for servo1, servo2, servo3, and servo4 with their respective angles
     int angle1 = msg.data[1];
     for (int pos = 0; pos <= angle1; pos += 1) { 
         servo1.write(pos);            
@@ -55,6 +54,6 @@ void setup() {
 }
 
 void loop() {
-  nh.spinOnce();  // Process any incoming ROS messages
-  delay(100);  // Small delay between loop iterations
+  nh.spinOnce();
+  delay(100);
 }
