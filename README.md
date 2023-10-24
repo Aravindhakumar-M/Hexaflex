@@ -27,4 +27,5 @@ Select the method that best suits your needs and embark on your journey of robot
 
 **Note**: Ensure you have the required dependencies, such as the Arduino IDE, ROS installation, and any necessary libraries, installed on your system.
 
-**Author**: Your Name
+## Acknowledgments
+Credit to the creators of ROS and the RPi.GPIO library. We would like to express our gratitude to Anya Robotics Pvt Ltd for their contributions or support.
