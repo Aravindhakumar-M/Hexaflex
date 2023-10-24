@@ -39,4 +39,4 @@ You can configure the code by adjusting the servo PWM pin assignments and the Bl
 
 ## Acknowledgments
 
-- This project is inspired by and adapted from various Arduino servo control tutorials and resources.
+This project is inspired by and adapted from various Arduino servo control tutorials and resources.
